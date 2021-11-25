@@ -73,6 +73,13 @@ html {
 
 /**
  * =============
+ @media (prefers-reduced-motion) {
+
+   .gear {
+     animation: none;
+   }
+
+ }
  @media (prefers-color-scheme: dark) {
 
    body {
